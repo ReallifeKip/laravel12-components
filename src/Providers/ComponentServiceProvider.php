@@ -12,5 +12,9 @@ class ComponentServiceProvider extends ServiceProvider
         $this->loadViewsFrom(__DIR__.'/../Resources/views', 'reallifekip');
 
         Blade::anonymousComponentPath(__DIR__.'/../Resources/views', 'reallifekip');
+
+        $this->publishes([
+            __DIR__.'/../Resources/dist/components.css' => public_path('vendor/reallifekip/components.css'),
+        ], 'reallifekip-assets');
     }
 }
