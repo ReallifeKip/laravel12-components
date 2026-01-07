@@ -1,0 +1,26 @@
+{
+    "name": "reallifekip/components",
+    "type": "library",
+    "require": {
+        "illuminate/console": "^12.45"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Reallifekip\\Components\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Reallifekip\\Components\\Providers\\ComponentServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Kip Yang",
+            "email": "bill402099@gmail.com"
+        }
+    ]
+}
