@@ -2,7 +2,7 @@
     "name": "reallifekip/components",
     "type": "library",
     "require": {
-        "illuminate/console": "^12.45"
+        "illuminate/console": "^12.0"
     },
     "license": "MIT",
     "autoload": {
